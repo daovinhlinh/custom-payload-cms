@@ -1321,12 +1321,7 @@
   resolved "https://registry.npmjs.org/@faceless-ui/scroll-info/-/scroll-info-1.2.5.tgz#f4eeb99eba405c5f4c0b9bea2651378ca1258c68"
   integrity sha512-mKsH8GO1t/fpe5zoNmpsDENQCiG0my8KQjaJHbBPfRYJNcLA7hyG6aKgnNj1BR4I7pmPjGJLBgR9Kgr0RtG8bg==
 
-"@faceless-ui/window-info@^2.0.2":
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/@faceless-ui/window-info/-/window-info-2.0.4.tgz#ea66b4d32fcc426aa13293f737978c43967d53ca"
-  integrity sha512-j16BeX//l3bLyPyz5J1Q/1xv5zMiGA1voaazgx8/zLQxVmbE0fppFdRvAQmqmixjpDIQuYTRDkoHeP58JeBpYQ==
-
-"@faceless-ui/window-info@^2.0.4":
+"@faceless-ui/window-info@^2.0.2", "@faceless-ui/window-info@^2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@faceless-ui/window-info/-/window-info-2.0.4.tgz#ea66b4d32fcc426aa13293f737978c43967d53ca"
   integrity sha512-j16BeX//l3bLyPyz5J1Q/1xv5zMiGA1voaazgx8/zLQxVmbE0fppFdRvAQmqmixjpDIQuYTRDkoHeP58JeBpYQ==

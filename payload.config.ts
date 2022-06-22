@@ -4,6 +4,7 @@ import Page from './collections/Page';
 import Media from './collections/Media';
 import Footer from './globals/Footer';
 import NavbarMenu from './globals/NavbarMenu';
+import Blog from './collections/Blog';
 
 dotenv.config();
 
@@ -12,6 +13,7 @@ export default buildConfig({
   collections: [
     Page,
     Media,
+    Blog
   ],
   globals: [
     Footer,

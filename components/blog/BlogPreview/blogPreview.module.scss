@@ -1,0 +1,28 @@
+.wrapper {
+   text-decoration: 'none'
+}
+
+.featuredImage {
+   margin: 0 auto;
+   max-width: var(--max-width-xs);
+   margin-bottom: 15px;
+
+   img {
+      border-radius: 10px;
+   }
+}
+
+.title {
+   font-size: 16px;
+   font-weight: 600;
+   color: var(--black);
+   margin-bottom: 7px;
+   padding-left: 7px
+}
+
+.subtitle {
+   font-size: 14;
+   font-weight: '600';
+   color: var(--gray);
+   padding-left: 7px
+}

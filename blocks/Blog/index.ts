@@ -1,5 +1,6 @@
 import { Block } from "payload/types";
 import { MediaType } from "../../collections/Media";
+import slug from "../../fields/slug";
 
 type Content = {
    children: {
@@ -20,8 +21,8 @@ export type Type = {
 const Blog: Block = {
    slug: 'blog',
    labels: {
-      singular: 'Blog',
-      plural: 'Blogs',
+      singular: 'Blog Preview',
+      plural: 'Blogs Preview',
    },
    fields: [
       {
@@ -46,7 +47,8 @@ const Blog: Block = {
          name: 'date',
          label: 'Date',
          type: 'date',
-      }
+      },
+      slug
    ]
 }
 

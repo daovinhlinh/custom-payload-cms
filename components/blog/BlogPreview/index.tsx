@@ -1,28 +1,14 @@
 import React from 'react'
-import { Type } from '.';
-import Link from '../../components/Link';
-import { SERVER_URL } from '../../pages/[...slug]';
-import { Component as Image } from '../Image';
-import styles from './blog.module.scss'
+import { Type } from '../../../collections/Blog';
+import { SERVER_URL } from '../../../pages/[...slug]';
+import Link from '../../Link';
+import styles from './blogPreview.module.scss'
 
-const Component: React.FC<Type> = (
-   {
-      content,
-      id,
-      image,
-      title,
-      date
-   }
-) => {
-   if (!id) {
-      return (
-         <div>detail</div>
-      )
-   }
+const BlogPreview: React.FC<Type> = (props) => {
+   const { content, date, id, image, slug, title } = props
 
    return (
-      <Link type='custom' url={`/blogs/${id}`} label={title} className={styles.wrapper}>
-
+      <Link type='custom' url={`/blog/${slug}`} label={title} className={styles.wrapper}>
          <div className={styles.featuredImage}>
             {image && (
                <img
@@ -37,4 +23,4 @@ const Component: React.FC<Type> = (
    )
 }
 
-export default Component
+export default BlogPreview

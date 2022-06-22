@@ -1,0 +1,22 @@
+   .wrapper {
+      text-decoration: 'none'
+   }
+
+   .featuredImage {
+      margin: '0 auto';
+      max-width: var(--max-width-xs);
+      margin-bottom: 15
+   }
+
+   .title {
+      font-size: 16;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 7
+   }
+
+   .subtitle {
+      font-size: 14;
+      font-weight: '600';
+      color: var(--gray)
+   }
