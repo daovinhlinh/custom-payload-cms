@@ -67,6 +67,8 @@ export const Image: Block = {
 export const Component: React.FC<Type> = (props) => {
   const { image, type, caption } = props;
 
+  console.log(props);
+
   if (typeof image === 'object') {
     let filenameToRender = image.filename;
     let { width } = image;

@@ -29,6 +29,9 @@ const RenderBlocks: React.FC<Props> = ({ layout, className }) => (
       }
 
       return null;
+      // return (
+      //   <div>Render block</div>
+      // )
     })}
   </div>
 );

@@ -1,6 +1,8 @@
-import { CallToAction, Component as cta } from './CallToAction';
+import CallToAction from './CallToAction';
 import { Content, Component as content } from './Content';
 import { Image, Component as image } from './Image';
+import Blog from './Blog/Component'
+import BlogGrid from './BlogGrid/Component';
 
 export const collections = {
   CallToAction,
@@ -9,7 +11,9 @@ export const collections = {
 };
 
 export const components = {
-  cta,
+  // cta,
   content,
   image,
+  'blog': Blog,
+  'blog-grid': BlogGrid
 };

@@ -2,8 +2,10 @@ import { CollectionConfig } from 'payload/types';
 import { MediaType } from './Media';
 import formatSlug from '../utilities/formatSlug';
 import { Image, Type as ImageType } from '../blocks/Image';
-import { CallToAction, Type as CallToActionType } from '../blocks/CallToAction';
+import CallToAction, { Type as CallToActionType } from '../blocks/CallToAction';
 import { Content, Type as ContentType } from '../blocks/Content';
+import Blog from '../blocks/Blog';
+import BlogGrid from '../blocks/BlogGrid';
 
 export type Layout = CallToActionType | ContentType | ImageType
 
@@ -49,6 +51,8 @@ export const Page: CollectionConfig = {
         CallToAction,
         Content,
         Image,
+        Blog,
+        BlogGrid
       ],
     },
     {
